@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+/* Base Styles */
+*{
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+
+}
+
+
+/* Navbar */
+
+nav{
+    background-color: #000000;
+}
+
+.navbar{
+    
+    display: flex;
+    
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 19px;
+    width: 164px;
+    height: 162px;
+    /*background-color: red;*/
+    background-image: url(./assets/logo.svg);
+
+
+}
+
+.links{
+    padding: 30px 10px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+    margin-left: 950px;
+    margin-top: 60px;
+    
+    
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.navbar a:hover{
+    color: #FC9C09;
+}
