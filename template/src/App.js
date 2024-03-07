@@ -5,8 +5,9 @@ import NavBar from "./navbar";
 import One from "./one";
 import Two from "./two";
 
-//React Router 
+//React Router + Chart JS
 import { BrowserRouter as Router , Route, Switch} from "react-router-dom";
+
 
 // ChartJs
 
@@ -38,6 +39,11 @@ function App() {
                 </Route>
 
                </Switch>
+
+              
+
+               
+
 
 
 

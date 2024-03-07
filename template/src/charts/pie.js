@@ -1,0 +1,1 @@
+import { Chart as ChartJs } from "chart.js/auto";

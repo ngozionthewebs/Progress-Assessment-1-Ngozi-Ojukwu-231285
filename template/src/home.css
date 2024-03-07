@@ -141,6 +141,48 @@ footer{
 
 /* Page One */
 
+.text{
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    padding-right: 70px;
+}
+
+.chart-one{
+    width: 1255px;
+    height: 450px;
+    border-radius: 20px;
+    background: #1950E2;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+
+}
+
+.chart-two{
+    width: 607px;
+    height: 517px;
+    border-radius: 20px;
+    background: #1950E2;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-left: 30px;
+
+
+}
+
+.chart-three{
+    width: 607px;
+    height: 517px;
+    border-radius: 20px;
+    background: #1950E2;
+    margin-top: -510px;
+    margin-left: 750px;
+
+}
+
 
 
 
