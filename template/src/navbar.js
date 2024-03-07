@@ -10,6 +10,8 @@ const NavBar = () => {
         <Link to="/one">One</Link>
         <Link to="/two">Two</Link>
 
+       
+
       </div>
     </nav>
   );
