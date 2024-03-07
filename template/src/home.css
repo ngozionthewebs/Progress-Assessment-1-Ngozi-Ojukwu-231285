@@ -11,7 +11,7 @@
 }
 
 .home{
-    background: #000;
+    background: #0068FF;
     padding-top: 60px;
     height: 1900px;
     
@@ -24,8 +24,119 @@
 
 /* Homepage */
 
+.heading{
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
 
+color: #fff; /* Set the text color */
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Set the shadow offsets and color */
+padding-left: 70px;
+}
 
+.subtext{
+    padding-left: 70px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 30px;
+
+}
+
+.image{
+    width: 741px;
+    height: 853px;
+    margin-left: 699px;
+    margin-top: -500px;
+    background-image: url(./assets/new.svg);
+}
+
+.section-2{
+    width: 1440px;
+    height: 1142px;
+    border-radius: 47px;
+    background: #B01B1B;
+
+}
+
+.heading-2{
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff; /* Set the text color */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Set the shadow offsets and color */
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 90px;
+}
+
+.image-2{
+    width: 950px;
+    height: 900px;
+
+    padding-bottom: 140px;
+    transform: rotate(3.46deg);
+    margin-top: -300px;
+    margin-right: 90px;
+    padding-left: 150px;
+    background-image: url(./assets/bowls.svg);
+    background-size: cover;
+
+}
+
+.subtext-2{
+    
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    padding-right: 70px;
+    margin-top: -710px;
+
+}
+
+button {
+    width: 265px;
+    height: 70px;
+    background-color: #F5BB4C;
+    margin-left: 1100px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: 1px solid #000; /* Add a 3px solid black border */
+    
+    /* Resetting default styles */
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    outline: none;
+    font-family: "Space Mono";
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  button span {
+    /* Text shadow for the text inside the button */
+    text-shadow: 1px 1px 1px #000;
+    /* Text stroke for the text inside the button */
+    -webkit-text-stroke: 1px #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Set the shadow offsets and color */
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: #0068FF;
+    color: #FFF;
+  }
+
+footer{
+    width: 1440px;
+    height: 165px;
+    background-color: #F5BB4C;
+    margin-top: -60px;
+
+}
+  
 
 
 /* Page One */
